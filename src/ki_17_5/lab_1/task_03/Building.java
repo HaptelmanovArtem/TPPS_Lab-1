@@ -28,4 +28,10 @@ public class Building {
     public void setBuildingNumber(Integer buildingNumber) {
         this.buildingNumber = buildingNumber;
     }
+
+    public Building(String streetName, Integer floorsNumber, Integer buildingNumber) {
+        this.streetName = streetName;
+        this.floorsNumber = floorsNumber;
+        this.buildingNumber = buildingNumber;
+    }
 }
